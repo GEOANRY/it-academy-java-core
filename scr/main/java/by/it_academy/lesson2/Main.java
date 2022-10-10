@@ -1,6 +1,6 @@
 package by.it_academy.lesson2;
 
-public class main {
+public class Main {
 
     public static void main(String[] args) {
         double a = 10;
@@ -10,8 +10,7 @@ public class main {
         System.out.println("Multiplication = " + (a * b));
         System.out.println("Division = " + (a / b));
 
-        int c = 8;
-        int result = ((c + 2345) / 3) % -6;
+        int result = ((8 + 2345) / 3) % -6;
         System.out.println(result);
         System.out.println(result >= -10);
         System.out.println(result < 9);
